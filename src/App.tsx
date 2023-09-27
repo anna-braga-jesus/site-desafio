@@ -23,6 +23,8 @@ const styles = {
     width: '350px', 
     height: '50px',
     fontSize: '20px',
+    textAlign: 'center',
+    alignItems: 'center',
      
    },
 };
