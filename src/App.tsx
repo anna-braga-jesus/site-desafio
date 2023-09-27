@@ -4,8 +4,6 @@ import VideoPlayer from "./componentes/Video";
 import CardResidencial from "./componentes/CardResidencial";
 import CardCorporativo from "./componentes/CardGamer";
 import Banner from "./componentes/Banner";
-import Footer from "./componentes/Footer";
-
 
 function App() {
   return (
@@ -40,9 +38,11 @@ function App() {
   {/* Residencial */}
   <CardResidencial />
     </div>
-
+    <div className="centered">
+    <Button variant="contained">JOGUE AGORA!</Button>
+    </div>
+  
   <VideoPlayer/>
-    <Footer />
   </div>
   )
   

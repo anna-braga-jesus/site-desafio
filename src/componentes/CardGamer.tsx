@@ -23,8 +23,7 @@ export default function CardGamer() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Compartilhe</Button>
-        <Button size="small">Navegar</Button>
+        <Button size="small">Saiba mais!</Button>
       </CardActions>
     </Card>
   );
