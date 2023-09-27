@@ -1,4 +1,4 @@
-import video from '../../public/2023-09-27-10-10-10.mp4';
+import video from '../../public/VídeoFinal.mp4';
 
 function VideoPlayer() {
     return (

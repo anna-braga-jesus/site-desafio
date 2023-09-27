@@ -25,7 +25,6 @@ const styles = {
     fontSize: '20px',
     textAlign: 'center',
     alignItems: 'center',
-     
    },
 };
 
