@@ -1,5 +1,12 @@
-import video from '../../public/video (2160p).mp4'
+import video from '../../public/dados_verde.mp4';
+import { Button } from '@mui/material';
 
+const styles = {
+  SaberMais: {
+    backgroundColor: '#00ad12', // Cor de fundo verde
+    color: '#fff', // Cor do texto branca
+  },
+};
 
 export default function Banner() {
     return (
@@ -19,9 +26,11 @@ export default function Banner() {
           borderRadius: '8px',
         }}>
           <h1>Seja bem-vindo ao nosso site</h1>
-          <p>Explore nossos produtos e serviços incríveis.</p>
-          <button>Saiba mais</button>
-        </div>
+          <p>Explore nossos produtos e serviços incríveis no Guia Rápido.</p>
+          <Button variant="contained" sx={styles.SaberMais}>
+            Saiba mais!
+          </Button>       
+     </div>
       </div>
     );
   }

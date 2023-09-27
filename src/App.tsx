@@ -4,11 +4,34 @@ import VideoPlayer from "./componentes/Video";
 import CardResidencial from "./componentes/CardResidencial";
 import CardCorporativo from "./componentes/CardGamer";
 import Banner from "./componentes/Banner";
+import Footer from "./componentes/Footer";
+
+const styles = {
+  appBar: {
+    background: 'linear-gradient(to right, #00ad12, #008a0d)', // Gradiente de verde da Oi
+  },
+  title: {
+    flexGrow: 1,
+  },
+   centered: {
+    position: 'absolute',
+    margin: '20px',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    backgroundColor: '#00ad12', 
+    color: '#fff',
+    width: '350px', 
+    height: '50px',
+    fontSize: '20px',
+     
+   },
+};
 
 function App() {
+ 
   return (
     <div>
-    <AppBar position="static">
+    <AppBar position="static" sx={styles.appBar}>
       <Toolbar>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           Metaverso Oi Fibra
@@ -38,12 +61,13 @@ function App() {
   {/* Residencial */}
   <CardResidencial />
     </div>
-    <div className="centered">
-    <Button variant="contained">JOGUE AGORA!</Button>
-    </div>
-  
+    <Button size= "small" sx={styles.centered}> JOGUE AGORA!</Button>
+
   <VideoPlayer/>
+  
+    <Footer />
   </div>
+
   )
   
 }

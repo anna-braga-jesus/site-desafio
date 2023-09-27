@@ -6,6 +6,13 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import casa from '../../public/pexels-thgusstavo-santana-2102587.jpg'
 
+const styles = {
+  SaberMais: {
+    backgroundColor: '#00ad12', // Cor de fundo verde
+    color: '#fff', // Cor do texto branca
+  },
+};
+
 export default function CardResidencial() {
   return (
     <Card sx={{ maxWidth: 345 }}>
@@ -23,8 +30,7 @@ export default function CardResidencial() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Saiba mais!</Button>
-        
+      <Button size="small" sx={styles.SaberMais}> Saiba mais!</Button>        
       </CardActions>
     </Card>
   );

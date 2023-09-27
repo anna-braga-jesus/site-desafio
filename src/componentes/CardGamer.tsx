@@ -4,7 +4,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import gamer from '../../public/pexels-tima-miroshnichenko-7046989.jpg'
+import gamer from '../../public/gamer.jpg'
+
+const styles = {
+  SaberMais: {
+    backgroundColor: '#00ad12', // Cor de fundo verde
+    color: '#fff', // Cor do texto branca
+  },
+};
+
 
 export default function CardGamer() {
   return (
@@ -23,7 +31,7 @@ export default function CardGamer() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Saiba mais!</Button>
+        <Button size="small" sx={styles.SaberMais}> Saiba mais!</Button>
       </CardActions>
     </Card>
   );
