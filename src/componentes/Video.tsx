@@ -1,4 +1,3 @@
-import React from 'react';
 import video from '../../public/2023-09-27-10-10-10.mp4';
 
 function VideoPlayer() {

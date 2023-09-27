@@ -1,5 +1,5 @@
 import "./App.css";
-import {AppBar,Container, Chip, Avatar,Toolbar, Typography, Button, IconButton} from '@mui/material';
+import {AppBar,Container, Toolbar, Typography, Button, IconButton} from '@mui/material';
 import VideoPlayer from "./componentes/Video";
 import CardResidencial from "./componentes/CardResidencial";
 import CardCorporativo from "./componentes/CardGamer";
