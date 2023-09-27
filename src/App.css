@@ -1,0 +1,7 @@
+.central {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adicione o espaço desejado entre os MediaCards */
+    margin: 30px;
+  }
+  
